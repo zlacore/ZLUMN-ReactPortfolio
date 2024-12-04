@@ -9,21 +9,21 @@ export default function myPortfolio() {
     {/*TODO: Build portfolio component*/ }
     const projectArray = [{
         "title": "Example 1",
-        "img": './src/assets/img/jake2.jpg',
+        "img": 'https://postimg.cc/dhfHjfjN',
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
     },
     {
         "title": "Example 2",
-        "img": "./src/assets/img/jake2.jpg",
+        "img": "https://postimg.cc/G8Kvq813",
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
     },
     {
         "title": "Example 3",
-        "img": "./src/assets/img/jake2.jpg",
+        "img": "https://postimg.cc/TKkMMQqn",
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
