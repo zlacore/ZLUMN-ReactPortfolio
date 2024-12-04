@@ -9,21 +9,21 @@ export default function myPortfolio() {
     {/*TODO: Build portfolio component*/ }
     const projectArray = [{
         "title": "Example 1",
-        "img": '/src/assets/img/jake2.jpg',
+        "img": './src/assets/img/jake2.jpg',
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
     },
     {
         "title": "Example 2",
-        "img": "/src/assets/img/jake2.jpg",
+        "img": "./src/assets/img/jake2.jpg",
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
     },
     {
         "title": "Example 3",
-        "img": "/src/assets/img/jake2.jpg",
+        "img": "./src/assets/img/jake2.jpg",
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
@@ -38,10 +38,10 @@ export default function myPortfolio() {
         const gitLink = project.gitLink;
         return (
             <>
-                <div className="card">
+                <div className="card imgdiv1 justify-content-center flex-row d-inline-block">
                     <div>
                         {title}
-                        {img}
+                        <img className='portimg h-25 w-25' src={project.img}></img>
                     </div>
                     <section className="content">
                         {desc}
@@ -66,6 +66,8 @@ export default function myPortfolio() {
     ////////////////////////////////////////
     return (
         renderProjectsModule(projectArray)
+
+        // / Old hardcoded portfolio images and captions //////
         // <div className="d-flex justify-content-center flex-column">
         //     <div className="imgdiv1 justify-content-center flex-row d-inline-block">
         //         <span >
