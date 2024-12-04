@@ -14,7 +14,7 @@ export default function contactMe() {
     {/*TODO: Build contact component*/ }
     return (
         <>
-            <form className="d-flex justify-content-center">
+            <form className="d-flex justify-content-center contactform">
                 {/* <div className="d-inline-block" id="namediv"> */}
                     <label for="name">Name:</label>
                     <input id="name" placeholder="Name" required></input>

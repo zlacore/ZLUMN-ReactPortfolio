@@ -7,8 +7,6 @@ import PageHeader from './components/header';
 import MyPortfolio from './components/portfolio';
 import MyResume from './components/resume'
 import { useRef } from 'react';
-
-
 //TODO: Implement logic to switch between tabs using useState and conditional statements
 function App() {
   const [navTab, setNavTab] = useState("aboutme")

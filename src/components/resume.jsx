@@ -8,7 +8,7 @@ export default function myResume() {
  
     return (
       <div className="d-flex justify-content-center">
-        <p>This will be a resume link!</p>
+        <a href="blahblahblah">Link to my resume</a>
       </div>
     )
 }

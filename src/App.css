@@ -5,6 +5,26 @@
   text-align: center;
 }
 
+header {
+  background-color: #6320ee
+}
+
+main {
+  background-color: #cad5ca
+}
+
+
+footer {
+  align-content: center;
+  position: fixed;
+  bottom: 10px;
+
+}
+
+.contactform {
+  height: 300px;
+  width: 100%
+}
 .logo {
   height: 6em;
   padding: 1.5em;

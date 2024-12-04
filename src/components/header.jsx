@@ -1,7 +1,7 @@
 // Instructions:
 // WHEN I view the header
 // THEN I am presented with the developer's name and the navigation bar
-import { useState } from 'react';
+// import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function PageHeader({ setNavTab }) {
@@ -27,7 +27,7 @@ export default function PageHeader({ setNavTab }) {
     console.log("PAGE HEADER")
     {/*TODO: Build header component*/}
     return (
-    <header className="d-flex justify-content-around">
+    <header className="bg-color-6320ee d-flex justify-content-around">
         <h1>Zachary LaCore</h1>
         <nav className="navbar navbar-inverse d-flex justify-content-around justify-content-between">
             <button onClick={()=>setNavTab("aboutme")}id="aboutBtn">About Me</button>
