@@ -9,7 +9,7 @@ export default function myPortfolio() {
     {/*TODO: Build portfolio component*/ }
     const projectArray = [{
         "title": "Example 1",
-        "img": 'https://postimg.cc/dhfHjfjN',
+        "img": 'https://ibb.co/9pxcjH1',
         "desc": "description",
         "pageLink": "",
         "gitLink": ""
@@ -41,12 +41,16 @@ export default function myPortfolio() {
                 <div className="card imgdiv1 justify-content-center flex-row d-inline-block">
                     <div>
                         {title}
-                        <img className='portimg h-25 w-25' src={project.img}></img>
+                        <img className='portimg h-25 w-25' src={img}></img>
                     </div>
                     <section className="content">
-                        {desc}
-                        {pageLink}
-                        {gitLink}
+                        <p>
+                            {desc}
+                            </p>
+                            <a href={pageLink}>Page</a>
+                            <div></div>
+                        <a href={gitLink}>Github</a>
+                        
                     </section>
                 </div>
             </>

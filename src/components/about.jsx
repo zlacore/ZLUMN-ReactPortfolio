@@ -20,7 +20,7 @@ export default function aboutMe() {
     return (
         <div className="d-flex flex-column justify-content-center">
             <h3>About Me</h3>
-            <img src=""></img>
+            <img src="placehold.it/200x200"></img>
             <div>
                 <h4>Hello! There will be information about me here in the future!</h4>
             </div>
